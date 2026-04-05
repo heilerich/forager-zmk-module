@@ -2,11 +2,7 @@ file_format: "1"
 id: forager
 name: Forager
 type: shield
-<<<<<<< HEAD
-requires: [xiao_ble]
-=======
 requires: [xiao_ble//zmk]
->>>>>>> upstream/zephyr-4-1-update
 features:
 - keys
 - studio
