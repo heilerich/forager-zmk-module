@@ -32,4 +32,7 @@ if SHIELD_FORAGER_DONGLE || SHIELD_FORAGER_LEFT || SHIELD_FORAGER_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_PM_SOFT_OFF
+    default y
+
 endif
