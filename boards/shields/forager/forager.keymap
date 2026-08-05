@@ -86,7 +86,7 @@
             bindings = <
             &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P
             &mt LSHFT A     &kp S           &kp D           &kp F           &kp G                                           &kp H           &mt LGUI J      &mt LALT K      &mt LCTRL L     &as APOS SEMI
-            &mt LCTRL Z     &mt LALT X      &kp C           &kp V           &kp B                                           &kp N           &kp M           &kp COMMA       &mt RALT DOT    &mt RCTRL FSLH
+            &mt LCTRL Z     &mt LALT X      &kp C           &kp V           &kp B                                           &kp N           &kp M           &kp COMMA       &kp DOT         &mt RALT FSLH
                                                                             &lt SYM RET     &mt LGUI ESC    &mt LSHFT BSPC  &lt NAV SPACE
             >;
         };
@@ -111,7 +111,7 @@
 
         adj {
             bindings = <
-            &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_CLR_ALL                                  &kp C_SLEEP     &trans          &trans          &kp C_BRI_DN    &kp C_BRI_UP
+            &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_CLR_ALL                                  &soft_off       &trans          &trans          &kp C_BRI_DN    &kp C_BRI_UP
             &studio_unlock  &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &kp C_VOL_DN    &kp C_VOL_UP
             &sys_reset      &bootloader     &trans          &trans          &trans                                          &trans          &trans          &trans          &bootloader     &sys_reset
                                                                             &trans          &trans          &trans          &trans
